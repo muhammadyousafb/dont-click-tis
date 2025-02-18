@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Alert!</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            margin-top: 20%;
+        }
+    </style>
+    <script>
+        function showAlerts() {
+            setTimeout(() => { alert("⚠ WARNING: Your device is infected! 🔥"); }, 1000);
+            setTimeout(() => { alert("System Crash Imminent! 💀"); }, 3000);
+            setTimeout(() => { alert("Just Kidding! 😆 It's a prank!"); }, 5000);
+        }
+    </script>
+</head>
+<body onload="showAlerts()">
+    <h1>⚠ VIRUS DETECTED! ⚠</h1>
+    <p>Your system is at risk. Do not close this page!</p>
+</body>
+</html>
